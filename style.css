@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ul{
+    list-style: none;
+}
+
+header h2{
+    font-size: 32px;
+}
+
+header h2 span{
+    color: #f05d18;
+}
+
+header ul{
+display: flex;
+gap: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-link{
+    color: #f05d18;
+}
+
+.homepage{
+    background-image: url(https://images-//.unsplash.com/photo-1504674900247-0877df9cc836?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitej;
+    gap: 20px;
+    padding-left: 24px;
+}
+
+.homepage h1{
+    font-size: 48px;
+}
+
+.homepage p{
+    width: 21%;
+    font-size: 16px;
+}
+
+.home-button{
+    display: flex;
+    gap: 24px;
+}
+
+.home-button button{
+    padding: 6px 12px;
+}
+
+.home-button .order-1{
+    border: none;
+    outline: none;
+    background-color: #f05d18;
+    color: white;
+}
+
+.home-button .order-2{
+    background: none;
+    color: #f05d18;
+    border: 2px solid #f05d18;
+}
+
+.home-button .order-1:hover{
+    background: white;
+    color: #f05d18;
+}
+
+.home-button .order-2:hover{
+    border-color: white;
+    color: white;
+}
